@@ -4,9 +4,7 @@ import re
 
 def prepare_data(node):
     """
-
-    :param node:
-    :return:
+    Preprocess the data, replace the list into a dict easily usable.
     """
     line_processed = node.strip().replace(':', ',', 1)
     line_processed = re.sub(r'[{}]', '', line_processed)
@@ -18,11 +16,7 @@ def prepare_data(node):
 
 def process_neighbors(parent_path, parent_distance, neighbor):
     """
-
-    :param parent_distance:
-    :param neighbor:
-    :param parent_path:
-    :return:
+    Process each neighbors. calculate the distance and update the path.
     """
     if len(neighbor) > 1:
         distance = parent_distance + neighbor[1]
@@ -32,10 +26,7 @@ def process_neighbors(parent_path, parent_distance, neighbor):
 
 def min_distance(node1, node2):
     """
-
-    :param node1:
-    :param node2:
-    :return:
+    return the node with the minimum distance calculated, and its path.
     """
     neighbors = node1[1] if node1[1] is not None else node2[1]
     if node1[0] <= node2[0]:
