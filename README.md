@@ -3,7 +3,7 @@
 ## Description
 
 Educational project given by our Big Data professor. The main goal is to implement the dijksktra algorithm using
-the MapReduce paradigm and these two methods :
+the MapReduce paradigm and these two frameworks :
 - Hadoop Streaming
 - Spark
 
@@ -68,7 +68,7 @@ You can retrieve the spark implementation inside the jupyter notebook
 
 ## Authors
 
-- [Estelle Hu]()
+- [Estelle Hu](https://github.com/estellehu)
 
 - [Alexandre Chekroun](https://github.com/alchekroun)
 
@@ -77,3 +77,7 @@ You can retrieve the spark implementation inside the jupyter notebook
 - “Data-Intensive Text Processing with MapReduce” - Jimmy Lin and Chris Dyer
 - Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford (2001). "Section 24.3: Dijkstra's algorithm".
 Introduction to Algorithms (Second ed.).
+- [Wikipedia page](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Programiz page](https://www.programiz.com/dsa/dijkstra-algorithm)
+- Hector Ortega-Arranz; Diego R. Llanos; Arturo Gonzalez-Escribano; Morgan & Claypool Publishers, Morgan and Claypool Life Sciences (2014). “The Shortest-Path Problem: Analysis and Comparison of Methods”
+- [Bilal Elchami’s git repository](https://github.com/bilal-elchami/dijkstra-hadoop-spark)
